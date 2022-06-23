@@ -1,6 +1,6 @@
 ARG RELEASE_TAG=develop 
-ARG API_DOMAIN=api.resonate.coop
-ARG APP_HOST=https://stream.resonate.coop
+ARG API_DOMAIN=api.justifay.com
+ARG APP_HOST=https://api.justifay.com
 ARG STATIC_HOSTNAME=dash.resonate.coop
 ARG API_BASE=/api/v3
 ARG NODE_ENV=development
@@ -19,11 +19,13 @@ WORKDIR /build
 
 RUN apk --no-cache add git
 
-RUN cd /build && git clone --branch ${RELEASE_TAG} --single-branch --depth 1 https://github.com/resonatecoop/id
+RUN cd /build && git clone --branch ${RELEASE_TAG} --single-branch --depth 1 https://github.com/litesolutions/id
 
 ENV NODE_ENV development
 
 RUN cd /build/id/frontend && npm install && npm install -g gulp
+
+RUN touch /build/id/frontend/.env
 
 ENV API_DOMAIN $API_DOMAIN
 ENV API_BASE $API_BASE
