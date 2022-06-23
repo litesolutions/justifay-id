@@ -19,7 +19,7 @@ WORKDIR /build
 
 RUN apk --no-cache add git
 
-RUN cd /build && git clone --branch ${RELEASE_TAG} --single-branch --depth 1 https://github.com/litesolutions/id
+RUN cd /build && git clone --branch ${RELEASE_TAG} --single-branch --depth 1 https://github.com/litesolutions/justifay-id
 
 ENV NODE_ENV development
 
