@@ -23,9 +23,9 @@ RUN cd /build && git clone --branch ${RELEASE_TAG} --single-branch --depth 1 htt
 
 ENV NODE_ENV development
 
-RUN cd /build/id/frontend && npm install && npm install -g gulp
+RUN cd /build/justifay-id/frontend && npm install && npm install -g gulp
 
-RUN touch /build/id/frontend/.env
+RUN touch /build/justifay-id/frontend/.env
 
 ENV API_DOMAIN $API_DOMAIN
 ENV API_BASE $API_BASE
@@ -33,7 +33,7 @@ ENV APP_HOST $APP_HOST
 ENV STATIC_HOSTNAME $STATIC_HOSTNAME
 ENV NODE_ENV $NODE_ENV
 
-RUN cd /build/id/frontend && npm run build
+RUN cd /build/justifay-id/frontend && npm run build
 
 # Backend build stage
 FROM golang:latest
@@ -53,9 +53,9 @@ RUN cd id && go build
 
 EXPOSE 11000
 
-WORKDIR /build/id
+WORKDIR /build/justifay-id
 
-COPY --from=builder /build/id/data /build/id/data/
-COPY --from=builder /build/id/public /build/id/public/
+COPY --from=builder /build/justifay-id/data /build/justifay-id/data/
+COPY --from=builder /build/justifay-id/public /build/justifay-id/public/
 
 ENTRYPOINT ["sh", "docker-entrypoint.sh"]
