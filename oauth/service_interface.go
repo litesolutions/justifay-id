@@ -2,10 +2,10 @@ package oauth
 
 import (
 	"github.com/gorilla/mux"
+	"github.com/litesolutions/justifay-api/model"
 	"github.com/litesolutions/justifay-id/config"
 	"github.com/litesolutions/justifay-id/session"
 	"github.com/litesolutions/justifay-id/util/routes"
-	"github.com/litesolutions/justifay-api/model"
 	"github.com/uptrace/bun"
 )
 

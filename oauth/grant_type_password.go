@@ -4,8 +4,8 @@ import (
 	"errors"
 	"net/http"
 
-	"github.com/litesolutions/justifay-id/oauth/tokentypes"
 	"github.com/litesolutions/justifay-api/model"
+	"github.com/litesolutions/justifay-id/oauth/tokentypes"
 )
 
 var (

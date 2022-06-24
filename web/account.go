@@ -9,11 +9,11 @@ import (
 
 	"github.com/gorilla/csrf"
 	"github.com/litesolutions/justifay-api/model"
-	"github.com/pariz/gountries"
 	"github.com/litesolutions/justifay-id/config"
 	"github.com/litesolutions/justifay-id/log"
 	"github.com/litesolutions/justifay-id/session"
 	"github.com/litesolutions/justifay-id/util/response"
+	"github.com/pariz/gountries"
 
 	"github.com/resonatecoop/user-api-client/client/usergroups"
 	"github.com/resonatecoop/user-api-client/models"

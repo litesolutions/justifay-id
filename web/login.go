@@ -8,9 +8,9 @@ import (
 	"strings"
 
 	"github.com/gorilla/csrf"
+	"github.com/litesolutions/justifay-api/model"
 	"github.com/litesolutions/justifay-id/session"
 	"github.com/litesolutions/justifay-id/util/response"
-	"github.com/litesolutions/justifay-api/model"
 )
 
 func (s *Service) loginForm(w http.ResponseWriter, r *http.Request) {

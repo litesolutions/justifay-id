@@ -6,9 +6,9 @@ import (
 
 	"github.com/gorilla/csrf"
 	"github.com/gorilla/mux"
-	"github.com/phyber/negroni-gzip/gzip"
 	"github.com/litesolutions/justifay-id/log"
 	"github.com/litesolutions/justifay-id/services"
+	"github.com/phyber/negroni-gzip/gzip"
 	"github.com/unrolled/secure"
 	"github.com/urfave/negroni"
 	"gopkg.in/tylerb/graceful.v1"

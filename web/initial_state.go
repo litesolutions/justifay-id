@@ -1,10 +1,10 @@
 package web
 
 import (
+	"github.com/litesolutions/justifay-api/model"
 	"github.com/litesolutions/justifay-id/config"
 	"github.com/litesolutions/justifay-id/session"
 	"github.com/resonatecoop/user-api-client/models"
-	"github.com/litesolutions/justifay-api/model"
 )
 
 // Profile user public profile

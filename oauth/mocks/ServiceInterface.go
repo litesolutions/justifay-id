@@ -3,8 +3,8 @@ package mocks
 import (
 	"github.com/litesolutions/justifay-id/config"
 	//"github.com/resonatecoop/id/oauth"
-	"github.com/litesolutions/justifay-id/oauth"
 	"github.com/litesolutions/justifay-api/model"
+	"github.com/litesolutions/justifay-id/oauth"
 
 	//"github.com/resonatecoop/id/oauth"
 	//"github.com/resonatecoop/id/oauth"

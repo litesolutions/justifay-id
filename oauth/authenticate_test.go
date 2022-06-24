@@ -4,9 +4,9 @@ import (
 	"context"
 	"time"
 
+	"github.com/litesolutions/justifay-api/model"
 	"github.com/litesolutions/justifay-id/oauth"
 	"github.com/litesolutions/justifay-id/session"
-	"github.com/litesolutions/justifay-api/model"
 
 	"github.com/google/uuid"
 

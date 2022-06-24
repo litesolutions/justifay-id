@@ -7,11 +7,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/mailgun/mailgun-go/v4"
-	"github.com/pariz/gountries"
+	"github.com/litesolutions/justifay-api/model"
 	"github.com/litesolutions/justifay-id/log"
 	pass "github.com/litesolutions/justifay-id/util/password"
-	"github.com/litesolutions/justifay-api/model"
+	"github.com/mailgun/mailgun-go/v4"
+	"github.com/pariz/gountries"
 	"github.com/uptrace/bun"
 )
 

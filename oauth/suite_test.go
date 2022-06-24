@@ -6,11 +6,11 @@ import (
 	"testing"
 
 	"github.com/gorilla/mux"
+	"github.com/litesolutions/justifay-api/model"
 	"github.com/litesolutions/justifay-id/config"
 	"github.com/litesolutions/justifay-id/database"
 	"github.com/litesolutions/justifay-id/log"
 	"github.com/litesolutions/justifay-id/oauth"
-	"github.com/litesolutions/justifay-api/model"
 	"github.com/stretchr/testify/suite"
 	"github.com/uptrace/bun"
 )

@@ -10,8 +10,8 @@ import (
 	"strconv"
 
 	"github.com/gorilla/csrf"
-	"github.com/litesolutions/justifay-id/session"
 	"github.com/litesolutions/justifay-api/model"
+	"github.com/litesolutions/justifay-id/session"
 )
 
 // ErrIncorrectResponseType a form value for response_type was not set to token or code

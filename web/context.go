@@ -5,8 +5,8 @@ import (
 	"net/http"
 
 	"github.com/gorilla/context"
-	"github.com/litesolutions/justifay-id/session"
 	"github.com/litesolutions/justifay-api/model"
+	"github.com/litesolutions/justifay-id/session"
 )
 
 type contextKey int

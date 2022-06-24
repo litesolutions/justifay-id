@@ -5,9 +5,9 @@ import (
 	"time"
 
 	"github.com/google/uuid"
+	"github.com/litesolutions/justifay-api/model"
 	"github.com/litesolutions/justifay-id/oauth"
 	"github.com/litesolutions/justifay-id/util"
-	"github.com/litesolutions/justifay-api/model"
 	"github.com/stretchr/testify/assert"
 )
 

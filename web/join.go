@@ -7,13 +7,13 @@ import (
 	"html/template"
 	"net/http"
 
+	"github.com/litesolutions/justifay-api/model"
 	"github.com/litesolutions/justifay-id/config"
 	"github.com/litesolutions/justifay-id/log"
 	"github.com/litesolutions/justifay-id/session"
 	"github.com/litesolutions/justifay-id/util"
 	"github.com/litesolutions/justifay-id/util/password"
 	"github.com/litesolutions/justifay-id/util/response"
-	"github.com/litesolutions/justifay-api/model"
 
 	"github.com/gorilla/csrf"
 	"github.com/pariz/gountries"
