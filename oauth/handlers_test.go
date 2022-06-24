@@ -5,8 +5,8 @@ import (
 	"net/http/httptest"
 	"net/url"
 
-	"github.com/resonatecoop/id/oauth"
-	testutil "github.com/resonatecoop/id/test-util"
+	"github.com/litesolutions/justifay-id/oauth"
+	testutil "github.com/litesolutions/justifay-id/test-util"
 	"github.com/stretchr/testify/assert"
 )
 

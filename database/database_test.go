@@ -3,8 +3,8 @@ package database_test
 import (
 	"testing"
 
-	"github.com/resonatecoop/id/config"
-	"github.com/resonatecoop/id/database"
+	"github.com/litesolutions/justifay-id/config"
+	"github.com/litesolutions/justifay-id/database"
 	"github.com/stretchr/testify/assert"
 )
 

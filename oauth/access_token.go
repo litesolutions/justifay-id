@@ -5,7 +5,7 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/resonatecoop/user-api/model"
+	"github.com/litesolutions/justifay-api/model"
 )
 
 // GrantAccessToken deletes old tokens and grants a new access token

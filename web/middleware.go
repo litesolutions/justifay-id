@@ -6,7 +6,7 @@ import (
 
 	"github.com/gorilla/context"
 	"github.com/gorilla/csrf"
-	"github.com/resonatecoop/id/session"
+	"github.com/litesolutions/justifay-id/session"
 )
 
 // parseFormMiddleware parses the form so r.Form becomes available

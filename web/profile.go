@@ -3,8 +3,8 @@ package web
 import (
 	"net/http"
 
-	"github.com/resonatecoop/id/session"
-	"github.com/resonatecoop/user-api/model"
+	"github.com/litesolutions/justifay-api/model"
+	"github.com/litesolutions/justifay-id/session"
 )
 
 func (s *Service) profileCommon(r *http.Request) (

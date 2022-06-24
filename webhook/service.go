@@ -1,8 +1,8 @@
 package webhook
 
 import (
-	"github.com/resonatecoop/id/config"
-	"github.com/resonatecoop/id/oauth"
+	"github.com/litesolutions/justifay-id/config"
+	"github.com/litesolutions/justifay-id/oauth"
 	"github.com/uptrace/bun"
 )
 

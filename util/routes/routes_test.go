@@ -7,7 +7,7 @@ import (
 	"testing"
 
 	"github.com/gorilla/mux"
-	"github.com/resonatecoop/id/util/routes"
+	"github.com/litesolutions/justifay-id/util/routes"
 	"github.com/stretchr/testify/assert"
 	"github.com/urfave/negroni"
 )

@@ -3,7 +3,7 @@ package util_test
 import (
 	"testing"
 
-	"github.com/resonatecoop/id/util"
+	"github.com/litesolutions/justifay-id/util"
 	"github.com/stretchr/testify/assert"
 )
 

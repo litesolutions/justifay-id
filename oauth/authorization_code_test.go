@@ -3,8 +3,8 @@ package oauth_test
 import (
 	"context"
 
-	"github.com/resonatecoop/id/util"
-	"github.com/resonatecoop/user-api/model"
+	"github.com/litesolutions/justifay-api/model"
+	"github.com/litesolutions/justifay-id/util"
 	"github.com/stretchr/testify/assert"
 )
 

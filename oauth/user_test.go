@@ -4,10 +4,10 @@ import (
 	"context"
 	"database/sql"
 
-	"github.com/resonatecoop/id/oauth"
-	"github.com/resonatecoop/id/util"
-	pass "github.com/resonatecoop/id/util/password"
-	"github.com/resonatecoop/user-api/model"
+	"github.com/litesolutions/justifay-api/model"
+	"github.com/litesolutions/justifay-id/oauth"
+	"github.com/litesolutions/justifay-id/util"
+	pass "github.com/litesolutions/justifay-id/util/password"
 	"github.com/stretchr/testify/assert"
 )
 

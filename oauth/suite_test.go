@@ -6,11 +6,11 @@ import (
 	"testing"
 
 	"github.com/gorilla/mux"
-	"github.com/resonatecoop/id/config"
-	"github.com/resonatecoop/id/database"
-	"github.com/resonatecoop/id/log"
-	"github.com/resonatecoop/id/oauth"
-	"github.com/resonatecoop/user-api/model"
+	"github.com/litesolutions/justifay-api/model"
+	"github.com/litesolutions/justifay-id/config"
+	"github.com/litesolutions/justifay-id/database"
+	"github.com/litesolutions/justifay-id/log"
+	"github.com/litesolutions/justifay-id/oauth"
 	"github.com/stretchr/testify/suite"
 	"github.com/uptrace/bun"
 )

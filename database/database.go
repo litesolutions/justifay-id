@@ -3,7 +3,7 @@ package database
 import (
 	"github.com/jackc/pgx/v4"
 	stdlib "github.com/jackc/pgx/v4/stdlib"
-	"github.com/resonatecoop/id/config"
+	"github.com/litesolutions/justifay-id/config"
 	bun "github.com/uptrace/bun"
 
 	"github.com/uptrace/bun/dialect/pgdialect"

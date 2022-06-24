@@ -8,8 +8,8 @@ import (
 	"strings"
 
 	"github.com/gorilla/csrf"
-	"github.com/resonatecoop/id/session"
-	"github.com/resonatecoop/id/util/response"
+	"github.com/litesolutions/justifay-id/session"
+	"github.com/litesolutions/justifay-id/util/response"
 )
 
 func (s *Service) accountSettingsForm(w http.ResponseWriter, r *http.Request) {

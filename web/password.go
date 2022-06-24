@@ -7,12 +7,12 @@ import (
 	"time"
 
 	"github.com/gorilla/csrf"
+	"github.com/litesolutions/justifay-api/model"
+	"github.com/litesolutions/justifay-id/log"
+	"github.com/litesolutions/justifay-id/session"
+	pass "github.com/litesolutions/justifay-id/util/password"
+	"github.com/litesolutions/justifay-id/util/response"
 	"github.com/mailgun/mailgun-go/v4"
-	"github.com/resonatecoop/id/log"
-	"github.com/resonatecoop/id/session"
-	pass "github.com/resonatecoop/id/util/password"
-	"github.com/resonatecoop/id/util/response"
-	"github.com/resonatecoop/user-api/model"
 )
 
 var (

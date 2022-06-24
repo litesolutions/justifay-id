@@ -10,8 +10,8 @@ import (
 	"strconv"
 
 	"github.com/gorilla/csrf"
-	"github.com/resonatecoop/id/session"
-	"github.com/resonatecoop/user-api/model"
+	"github.com/litesolutions/justifay-api/model"
+	"github.com/litesolutions/justifay-id/session"
 )
 
 // ErrIncorrectResponseType a form value for response_type was not set to token or code
@@ -60,7 +60,6 @@ func (s *Service) authorizeForm(w http.ResponseWriter, r *http.Request) {
 	profile := &Profile{
 		Email:          user.Username,
 		EmailConfirmed: user.EmailConfirmed,
-		LegacyID:       user.LegacyID,
 		Complete:       isUserAccountComplete,
 		Usergroups:     usergroups.Usergroup,
 	}

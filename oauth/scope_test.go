@@ -1,7 +1,7 @@
 package oauth_test
 
 import (
-	"github.com/resonatecoop/id/oauth"
+	"github.com/litesolutions/justifay-id/oauth"
 	"github.com/stretchr/testify/assert"
 )
 

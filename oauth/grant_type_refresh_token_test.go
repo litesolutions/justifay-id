@@ -7,10 +7,10 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/resonatecoop/id/oauth"
-	"github.com/resonatecoop/id/oauth/tokentypes"
-	testutil "github.com/resonatecoop/id/test-util"
-	"github.com/resonatecoop/user-api/model"
+	"github.com/litesolutions/justifay-api/model"
+	"github.com/litesolutions/justifay-id/oauth"
+	"github.com/litesolutions/justifay-id/oauth/tokentypes"
+	testutil "github.com/litesolutions/justifay-id/test-util"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -5,7 +5,7 @@ import (
 	"errors"
 	"time"
 
-	"github.com/resonatecoop/user-api/model"
+	"github.com/litesolutions/justifay-api/model"
 )
 
 var (

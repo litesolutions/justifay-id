@@ -8,10 +8,10 @@ import (
 	"strings"
 
 	"github.com/gorilla/csrf"
-	"github.com/resonatecoop/id/oauth"
-	"github.com/resonatecoop/id/session"
-	"github.com/resonatecoop/id/util/response"
-	"github.com/resonatecoop/user-api/model"
+	"github.com/litesolutions/justifay-api/model"
+	"github.com/litesolutions/justifay-id/oauth"
+	"github.com/litesolutions/justifay-id/session"
+	"github.com/litesolutions/justifay-id/util/response"
 )
 
 func (s *Service) passwordResetForm(w http.ResponseWriter, r *http.Request) {

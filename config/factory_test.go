@@ -3,7 +3,7 @@ package config_test
 import (
 	"testing"
 
-	"github.com/resonatecoop/id/config"
+	"github.com/litesolutions/justifay-id/config"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -6,7 +6,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/resonatecoop/id/log"
+	"github.com/litesolutions/justifay-id/log"
 	"go.etcd.io/etcd/api/v3/v3rpc/rpctypes"
 	clientv3 "go.etcd.io/etcd/client/v3"
 	transport "go.etcd.io/etcd/pkg/transport"

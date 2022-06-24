@@ -4,7 +4,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/resonatecoop/id/cmd"
+	"github.com/litesolutions/justifay-id/cmd"
 	"github.com/urfave/cli"
 )
 

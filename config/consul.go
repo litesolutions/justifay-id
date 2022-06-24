@@ -7,7 +7,7 @@ import (
 	"os"
 
 	"github.com/hashicorp/consul/api"
-	"github.com/resonatecoop/id/log"
+	"github.com/litesolutions/justifay-id/log"
 )
 
 var (

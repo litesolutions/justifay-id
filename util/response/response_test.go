@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/resonatecoop/id/util/response"
+	"github.com/litesolutions/justifay-id/util/response"
 	"github.com/stretchr/testify/assert"
 )
 

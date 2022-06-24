@@ -1,16 +1,16 @@
 package mocks
 
 import (
-	"github.com/resonatecoop/id/config"
+	"github.com/litesolutions/justifay-id/config"
 	//"github.com/resonatecoop/id/oauth"
-	"github.com/resonatecoop/id/oauth"
-	"github.com/resonatecoop/user-api/model"
+	"github.com/litesolutions/justifay-api/model"
+	"github.com/litesolutions/justifay-id/oauth"
 
 	//"github.com/resonatecoop/id/oauth"
 	//"github.com/resonatecoop/id/oauth"
 	uuid "github.com/google/uuid"
 	"github.com/gorilla/mux"
-	"github.com/resonatecoop/id/util/routes"
+	"github.com/litesolutions/justifay-id/util/routes"
 	"github.com/stretchr/testify/mock"
 	"github.com/uptrace/bun"
 )

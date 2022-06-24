@@ -9,9 +9,9 @@ import (
 
 	jwt "github.com/form3tech-oss/jwt-go"
 	uuid "github.com/google/uuid"
+	"github.com/litesolutions/justifay-api/model"
+	"github.com/litesolutions/justifay-id/util"
 	"github.com/mailgun/mailgun-go/v4"
-	"github.com/resonatecoop/id/util"
-	"github.com/resonatecoop/user-api/model"
 	"github.com/uptrace/bun"
 )
 

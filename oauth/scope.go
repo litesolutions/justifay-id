@@ -6,7 +6,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/resonatecoop/user-api/model"
+	"github.com/litesolutions/justifay-api/model"
 	"github.com/uptrace/bun"
 )
 

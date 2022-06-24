@@ -8,12 +8,12 @@ import (
 	"strings"
 
 	"github.com/gorilla/csrf"
+	"github.com/litesolutions/justifay-api/model"
+	"github.com/litesolutions/justifay-id/config"
+	"github.com/litesolutions/justifay-id/log"
+	"github.com/litesolutions/justifay-id/session"
+	"github.com/litesolutions/justifay-id/util/response"
 	"github.com/pariz/gountries"
-	"github.com/resonatecoop/id/config"
-	"github.com/resonatecoop/id/log"
-	"github.com/resonatecoop/id/session"
-	"github.com/resonatecoop/id/util/response"
-	"github.com/resonatecoop/user-api/model"
 
 	"github.com/resonatecoop/user-api-client/client/usergroups"
 	"github.com/resonatecoop/user-api-client/models"

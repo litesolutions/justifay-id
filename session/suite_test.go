@@ -6,8 +6,8 @@ import (
 	"testing"
 
 	"github.com/gorilla/sessions"
-	"github.com/resonatecoop/id/config"
-	"github.com/resonatecoop/id/session"
+	"github.com/litesolutions/justifay-id/config"
+	"github.com/litesolutions/justifay-id/session"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/suite"
 )

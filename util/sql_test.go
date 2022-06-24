@@ -7,7 +7,7 @@ import (
 	"time"
 
 	"github.com/lib/pq"
-	"github.com/resonatecoop/id/util"
+	"github.com/litesolutions/justifay-id/util"
 	"github.com/stretchr/testify/assert"
 )
 
