@@ -7,7 +7,7 @@ import (
 	"os"
 	"time"
 
-	thelog "github.com/resonatecoop/id/log"
+	thelog "github.com/litesolutions/justifay-id/log"
 	"github.com/urfave/negroni"
 )
 

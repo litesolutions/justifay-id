@@ -5,9 +5,9 @@ import (
 	"errors"
 	"strings"
 
-	"github.com/resonatecoop/id/util"
-	"github.com/resonatecoop/id/util/password"
-	"github.com/resonatecoop/user-api/model"
+	"github.com/litesolutions/justifay-id/util"
+	"github.com/litesolutions/justifay-id/util/password"
+	"github.com/litesolutions/justifay-api/model"
 	"github.com/uptrace/bun"
 )
 

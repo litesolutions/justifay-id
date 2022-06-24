@@ -4,8 +4,8 @@ import (
 	"errors"
 	"net/http"
 
-	"github.com/resonatecoop/id/util/response"
-	"github.com/resonatecoop/user-api/model"
+	"github.com/litesolutions/justifay-id/util/response"
+	"github.com/litesolutions/justifay-api/model"
 )
 
 var (

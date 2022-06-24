@@ -7,7 +7,7 @@ import (
 
 	//"github.com/resonatecoop/id/config"
 	"github.com/gorilla/sessions"
-	"github.com/resonatecoop/id/config"
+	"github.com/litesolutions/justifay-id/config"
 )
 
 type Level string

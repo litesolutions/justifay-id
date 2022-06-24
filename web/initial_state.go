@@ -1,17 +1,16 @@
 package web
 
 import (
-	"github.com/resonatecoop/id/config"
-	"github.com/resonatecoop/id/session"
+	"github.com/litesolutions/justifay-id/config"
+	"github.com/litesolutions/justifay-id/session"
 	"github.com/resonatecoop/user-api-client/models"
-	"github.com/resonatecoop/user-api/model"
+	"github.com/litesolutions/justifay-api/model"
 )
 
 // Profile user public profile
 type Profile struct {
 	ID          string `json:"id"`
 	Role        string `json:"role"`
-	LegacyID    int32  `json:"legacyID"`
 	DisplayName string `json:"displayName"`
 	Email       string `json:"email"`
 	// FullName               string                                 `json:"fullName"`
@@ -46,7 +45,6 @@ func NewProfile(
 		Role:                   role,
 		Email:                  user.Username,
 		EmailConfirmed:         user.EmailConfirmed,
-		LegacyID:               user.LegacyID,
 		Member:                 user.Member,
 		NewsletterNotification: user.NewsletterNotification,
 		Usergroups:             usergroups,

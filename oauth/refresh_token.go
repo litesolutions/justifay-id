@@ -6,8 +6,8 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/resonatecoop/id/util"
-	"github.com/resonatecoop/user-api/model"
+	"github.com/litesolutions/justifay-id/util"
+	"github.com/litesolutions/justifay-api/model"
 )
 
 var (

@@ -3,7 +3,7 @@ package password_test
 import (
 	"testing"
 
-	"github.com/resonatecoop/id/util/password"
+	"github.com/litesolutions/justifay-id/util/password"
 	"github.com/stretchr/testify/assert"
 )
 

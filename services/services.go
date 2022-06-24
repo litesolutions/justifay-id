@@ -4,12 +4,12 @@ import (
 	"reflect"
 
 	"github.com/gorilla/sessions"
-	"github.com/resonatecoop/id/config"
-	"github.com/resonatecoop/id/health"
-	"github.com/resonatecoop/id/oauth"
-	"github.com/resonatecoop/id/session"
-	"github.com/resonatecoop/id/web"
-	"github.com/resonatecoop/id/webhook"
+	"github.com/litesolutions/justifay-id/config"
+	"github.com/litesolutions/justifay-id/health"
+	"github.com/litesolutions/justifay-id/oauth"
+	"github.com/litesolutions/justifay-id/session"
+	"github.com/litesolutions/justifay-id/web"
+	"github.com/litesolutions/justifay-id/webhook"
 	"github.com/uptrace/bun"
 )
 

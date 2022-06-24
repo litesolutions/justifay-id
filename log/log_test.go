@@ -3,7 +3,7 @@ package log_test
 import (
 	"testing"
 
-	"github.com/resonatecoop/id/log"
+	"github.com/litesolutions/justifay-id/log"
 )
 
 func TestDefaultLogger(t *testing.T) {

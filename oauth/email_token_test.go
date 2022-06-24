@@ -5,7 +5,7 @@ import (
 	"errors"
 
 	"github.com/google/uuid"
-	"github.com/resonatecoop/user-api/model"
+	"github.com/litesolutions/justifay-api/model"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -3,9 +3,9 @@ package web
 import (
 	"net/http"
 
-	"github.com/resonatecoop/id/config"
-	"github.com/resonatecoop/id/oauth"
-	"github.com/resonatecoop/id/session"
+	"github.com/litesolutions/justifay-id/config"
+	"github.com/litesolutions/justifay-id/oauth"
+	"github.com/litesolutions/justifay-id/session"
 )
 
 // Service struct keeps variables for reuse

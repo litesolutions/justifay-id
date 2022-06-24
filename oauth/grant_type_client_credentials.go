@@ -3,8 +3,8 @@ package oauth
 import (
 	"net/http"
 
-	"github.com/resonatecoop/id/oauth/tokentypes"
-	"github.com/resonatecoop/user-api/model"
+	"github.com/litesolutions/justifay-id/oauth/tokentypes"
+	"github.com/litesolutions/justifay-api/model"
 )
 
 func (s *Service) clientCredentialsGrant(r *http.Request, client *model.Client) (*AccessTokenResponse, error) {

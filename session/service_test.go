@@ -1,7 +1,7 @@
 package session_test
 
 import (
-	"github.com/resonatecoop/id/session"
+	"github.com/litesolutions/justifay-id/session"
 	"github.com/stretchr/testify/assert"
 )
 

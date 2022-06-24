@@ -4,7 +4,7 @@ import (
 	"github.com/didip/tollbooth"
 	"github.com/didip/tollbooth_negroni"
 	"github.com/gorilla/mux"
-	"github.com/resonatecoop/id/util/routes"
+	"github.com/litesolutions/justifay-id/util/routes"
 	"github.com/urfave/negroni"
 )
 

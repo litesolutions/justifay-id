@@ -2,7 +2,7 @@ package health
 
 import (
 	"github.com/gorilla/mux"
-	"github.com/resonatecoop/id/util/routes"
+	"github.com/litesolutions/justifay-id/util/routes"
 )
 
 // ServiceInterface defines exported methods

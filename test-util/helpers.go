@@ -13,7 +13,7 @@ import (
 
 	"github.com/RichardKnop/jsonhal"
 	"github.com/gorilla/mux"
-	"github.com/resonatecoop/id/util/response"
+	"github.com/litesolutions/justifay-id/util/response"
 	"github.com/stretchr/testify/assert"
 )
 

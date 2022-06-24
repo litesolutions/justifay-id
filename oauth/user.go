@@ -9,9 +9,9 @@ import (
 
 	"github.com/mailgun/mailgun-go/v4"
 	"github.com/pariz/gountries"
-	"github.com/resonatecoop/id/log"
-	pass "github.com/resonatecoop/id/util/password"
-	"github.com/resonatecoop/user-api/model"
+	"github.com/litesolutions/justifay-id/log"
+	pass "github.com/litesolutions/justifay-id/util/password"
+	"github.com/litesolutions/justifay-api/model"
 	"github.com/uptrace/bun"
 )
 

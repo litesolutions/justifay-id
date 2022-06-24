@@ -1,10 +1,10 @@
 package oauth
 
 import (
-	"github.com/resonatecoop/id/config"
+	"github.com/litesolutions/justifay-id/config"
 	"github.com/uptrace/bun"
 
-	"github.com/resonatecoop/user-api/model"
+	"github.com/litesolutions/justifay-api/model"
 )
 
 // Service struct keeps objects to avoid passing them around

@@ -2,9 +2,9 @@ package webhook
 
 import (
 	"github.com/gorilla/mux"
-	"github.com/resonatecoop/id/config"
-	"github.com/resonatecoop/id/oauth"
-	"github.com/resonatecoop/id/util/routes"
+	"github.com/litesolutions/justifay-id/config"
+	"github.com/litesolutions/justifay-id/oauth"
+	"github.com/litesolutions/justifay-id/util/routes"
 )
 
 // ServiceInterface defines exported methods

@@ -5,7 +5,7 @@ import (
 	"errors"
 	"strings"
 
-	"github.com/resonatecoop/user-api/model"
+	"github.com/litesolutions/justifay-api/model"
 )
 
 // Login creates an access token and refresh token for a user (logs him/her in)

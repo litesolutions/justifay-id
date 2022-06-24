@@ -3,7 +3,7 @@ package health
 import (
 	"net/http"
 
-	"github.com/resonatecoop/id/util/response"
+	"github.com/litesolutions/justifay-id/util/response"
 )
 
 // Handles health check requests (GET /v1/health)
