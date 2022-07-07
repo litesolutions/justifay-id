@@ -1,6 +1,6 @@
-# Resonate ID Template
+# Justifay ID Server
 
-Resonate's ID server is a Go OAuth2 Server based on [RichardKnop/go-oauth2-server](https://github.com/RichardKnop/go-oauth2-server).
+Justifay's ID server is a Go OAuth2 Server based on [RichardKnop/go-oauth2-server](https://github.com/RichardKnop/go-oauth2-server).
 
 * [Setup](#setup)
 * [Run](#run)
@@ -44,11 +44,9 @@ etcdctl get /config/go_oauth2_server.json
 
 At some point, we will be merging both the ID server and User API repos. Until then, the ID server needs a direct database connection to the User API.
 
-Using [resonatecoop/user-api-client](https://github.com/resonatecoop/user-api-client), the ID server can also make RESTful requests to the User API.
-
 #### User API
 
-(How to setup the User API locally, check out [user-api](https://github.com/resonatecoop/user-api) github repository)
+(How to setup the User API locally, check out [user-api](https://github.com/litesolutions/justifay-api) github repository)
 
 ### Compile
 
