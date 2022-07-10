@@ -1,7 +1,7 @@
 {
   "name": "frontend",
   "version": "0.0.0",
-  "description": "Resonate Oauth Server",
+  "description": "Justifay Oauth Server",
   "main": "index.js",
   "scripts": {
     "test": "standard",
