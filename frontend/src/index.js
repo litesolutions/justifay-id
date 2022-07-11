@@ -8,10 +8,6 @@ window.initialState = initialState // hack to bring back initial state (should b
 
 const { isBrowser } = require('browser-or-node')
 const setTitle = require('./lib/title')
-const { getAPIServiceClientWithAuth } = require('@resonate/api-service')({
-  apiHost: process.env.APP_HOST,
-  base: process.env.API_BASE || '/api/v3'
-})
 
 const SearchOuter = require('./components/header')
 const UserMenu = require('./components/user-menu')
@@ -44,14 +40,9 @@ app.use((state, emitter) => {
 
   state.clients = state.clients || [
     {
-      connectUrl: 'https://stream.resonate.coop/api/user/connect/resonate',
+      connectUrl: 'https://stream.justifay.com/api/user/connect/justifay',
       name: 'Player',
-      description: 'stream.resonate.coop'
-    },
-    {
-      connectUrl: 'https://dash.resonate.coop/api/user/connect/resonate',
-      name: 'Dashboard',
-      description: 'dash.resonate.coop'
+      description: 'stream.justifay.com'
     }
   ]
 
@@ -60,38 +51,10 @@ app.use((state, emitter) => {
     setMeta()
   })
 
-  emitter.on('route:account', () => {
-    getUserProfile()
-  })
-
-  emitter.on('route:profile', () => {
-    getUserProfile()
-  })
-
   emitter.on(state.events.NAVIGATE, () => {
     emitter.emit(`route:${state.route}`)
     setMeta()
   })
-
-  async function getUserProfile () {
-    try {
-      // get v2 api profile for legacy values (old nickname, avatar)
-      const getClient = getAPIServiceClientWithAuth(state.token)
-      const client = await getClient('profile')
-      const result = await client.getUserProfile()
-
-      const { body: response } = result
-      const { data: userData } = response
-
-      state.profile.nickname = userData.nickname
-      state.profile.avatar = userData.avatar || {}
-
-      emitter.emit(state.events.RENDER)
-    } catch (err) {
-      console.log(err.message)
-      console.log(err)
-    }
-  }
 
   function setMeta () {
     const title = {
