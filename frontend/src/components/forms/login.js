@@ -91,9 +91,7 @@ class Login extends Component {
         errors: {}
       },
       buttonText: 'Log In',
-      altButton: html`
-        <p class="f5 lh-copy">Don't have an account? <a class="link b" href="/join">Join</a>.</p>
-      `,
+      altButton: html``,
       fields: [
         { type: 'email', autofocus: true, placeholder: 'E-mail' },
         {
