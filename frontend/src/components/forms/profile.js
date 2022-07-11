@@ -359,7 +359,7 @@ class AccountForm extends Component {
                     <dd class="f6 ma0">We would like to keep in touch using your email address. Is that OK?</dd>
                   </dl>
                 `,
-                helpText: helpText('About privacy', 'https://community.resonate.is/docs?search=privacy&topic=1863'),
+                helpText: helpText('About privacy', 'https://justifay.com/politica-privacidad/'),
                 onchange: (value) => {
                   this.local.data.newsletterNotification = value
                 }
